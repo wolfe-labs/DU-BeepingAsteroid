@@ -1,0 +1,41 @@
+{
+  "cli": {
+    "fmtVersion": 5
+  },
+  "name": "@wolfe-labs/BeepingAsteroid",
+  "description": "Small utility to notify asteroid miners when a ship is nearby",
+  "sourcePath": "src",
+  "outputPath": "out",
+  "libs": [],
+  "builds": [
+    {
+      "name": "main",
+      "type": "control",
+      "title": "Wolfe Labs Asteroid Notification System v1.0",
+      "slots": [
+        {
+          "name": "radar",
+          "type": "radar",
+          "events": [
+            "onLeave"
+          ]
+        }
+      ]
+    }
+  ],
+  "targets": [
+    {
+      "name": "development",
+      "handleErrors": false,
+      "minify": false,
+      "stripComments": false,
+      "variables": {}
+    }
+  ],
+  "internalPaths": [
+    "autoconf/",
+    "cpml/",
+    "pl/",
+    "utils/event"
+  ]
+}
