@@ -11,7 +11,7 @@
     {
       "name": "main",
       "type": "control",
-      "title": "Wolfe Labs Asteroid Notification System v1.0",
+      "title": "Wolfe Labs Asteroid Notification System v0.1",
       "slots": [
         {
           "name": "radar",
